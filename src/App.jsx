@@ -3,11 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const hello = "안녕하세요";
+
+  const style = {
+    fontSize:30
+  }
 
   return (
     <>
-      <div>안녕하세요</div>
+      <div style={style}>{hello}</div>
+      <div>{hello}</div>
     </>
   )
 }
