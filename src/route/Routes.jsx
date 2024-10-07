@@ -7,6 +7,7 @@ import ThreePage from '../pages/ThreePage'
 import CounterPage from '../pages/CounterPage'
 import InputPage from './../pages/InputPage'
 import InputGradePage from '../pages/InputGradePage'
+import UseRefPage from '../pages/UseRefPage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -49,6 +50,11 @@ const routes = [
     path: '/inputGrade',
     element: <InputGradePage />,
     title: 'inputGrade',
+  },
+  {
+    path: '/useref',
+    element: <UseRefPage />,
+    title: 'useref 예제 1번',
   },
 ]
 
