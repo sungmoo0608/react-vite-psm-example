@@ -9,6 +9,7 @@ import ProfilePage from './pages/ProfilePage'
 import routes from './route/Routes'
 import HeaderNav from './components/HeaderNav'
 import InputPage from './pages/InputPage'
+import UseRefPage from './pages/UseRefPage'
 
 function App() {
   return (
