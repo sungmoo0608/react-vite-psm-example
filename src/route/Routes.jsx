@@ -6,6 +6,7 @@ import PropsPage from '../pages/PropsPage'
 import ThreePage from '../pages/ThreePage'
 import CounterPage from '../pages/CounterPage'
 import InputPage from './../pages/InputPage'
+import InputGradePage from '../pages/InputGradePage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -43,6 +44,11 @@ const routes = [
     path: '/input',
     element: <InputPage />,
     title: 'input',
+  },
+  {
+    path: '/inputGrade',
+    element: <InputGradePage />,
+    title: 'inputGrade',
   },
 ]
 
