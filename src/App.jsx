@@ -10,6 +10,7 @@ import routes from './route/Routes'
 import HeaderNav from './components/HeaderNav'
 import InputPage from './pages/InputPage'
 import UseRefPage from './pages/UseRefPage'
+import UserArrayPage from './pages/UserArrayPage'
 
 function App() {
   return (
