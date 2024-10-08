@@ -10,6 +10,7 @@ import InputGradePage from '../pages/InputGradePage'
 import UseRefPage from '../pages/UseRefPage'
 import UseRefPage2 from '../pages/UseRefPage2'
 import UserArrayPage from '../pages/UserArrayPage'
+import UserCrudPage from '../pages/UserCrudPage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -65,7 +66,8 @@ const routes = [
   },
   {
     path: '/userpage',
-    element: <UserArrayPage />,
+    //element: <UserArrayPage />,
+    element: <UserCrudPage />,
     title: 'userpage',
   },
 ]
