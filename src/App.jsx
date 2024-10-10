@@ -11,6 +11,7 @@ import HeaderNav from './components/HeaderNav'
 import InputPage from './pages/InputPage'
 import UseRefPage from './pages/UseRefPage'
 import UserArrayPage from './pages/UserArrayPage'
+import AxiosPage from './pages/AxiosPage'
 
 function App() {
   return (
