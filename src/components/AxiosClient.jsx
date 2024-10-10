@@ -22,6 +22,12 @@ const AxiosClient = () => {
       })
   }
 
+  const removeClick = (event) => {
+    let no = event.target.name
+
+    setData(data.filter((client) => client.no != no))
+  }
+
   return (
     <div>
       <h2>클라이언트 테이블 받아오기 연습</h2>
@@ -54,7 +60,7 @@ const AxiosClient = () => {
                   name={post.no}
                   id={post.no}
                   type="button"
-                  class="del-button"
+                  onClick={removeClick}
                   value="삭제"
                 />
               </td>
