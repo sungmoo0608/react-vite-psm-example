@@ -1,8 +1,13 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const AxiosClient = () => {
   const [data, setData] = useState([])
+
+  //처음 랜더링 될 때 한번만 실행 시키고 싶다.
+  useEffect(() => {
+    getClick()
+  }, [])
 
   const getClick = () => {
     axios
